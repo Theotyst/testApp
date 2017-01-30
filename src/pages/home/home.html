@@ -1,0 +1,18 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      {{ 'home.title' | translate}}
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content padding>
+  <div *ngFor="let bodyPart of bodyParts;">
+    <!--[navParams]="{'bodyPart': bodyPart}"-->
+    <div [navPush]="contactForm" [navParams]="{'bodyPart': bodyPart}" class="formButton">
+      {{ 'home.'+bodyPart | translate }}
+    </div>
+  </div>
+
+</ion-content>

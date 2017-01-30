@@ -1,0 +1,18 @@
+{
+  "home" : {
+    "title" : "test app",
+    "eyes": "eyes",
+    "nose": "nose",
+    "legs": "legs",
+    "ears": "ears"
+  },
+  "form" : {
+    "title" : "Form for {{bodypart}} surgery",
+    "firstname": "First name",
+    "lastname": "Last name",
+    "email" : "Email",
+    "details" : "Details about your request",
+    "photo" : "Photo",
+    "send" : "Send"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "home": {
+    "title": "app de test",
+    "eyes": "yeux",
+    "nose": "nez",
+    "legs": "jambes",
+    "ears": "oreilles"
+  },
+  "form": {
+    "title": "Formulaire pour une chirurgie - {{bodypart}}"
+    "firstname": "Prénom",
+    "lastname": "Nom",
+    "email": "Email",
+    "details": "Précisions sur votre demande",
+    "photo": "Photo",
+    "send": "Envoyer"
+  }
+}
